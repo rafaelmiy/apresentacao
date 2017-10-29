@@ -1,0 +1,22 @@
+/*height: 100vh;*/
+.full{
+	height: 100vh;
+	padding: 50px 100px;
+}
+.full{
+	text-align: center;
+	line-height: 80vh;
+}
+.one{
+	background: #fff;
+}
+.two{
+	background: green;
+}
+.one h2,
+.two h2{
+	font-weight: 400;
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
