@@ -2,7 +2,8 @@
 window.sr = ScrollReveal({ duration: 2000 });
 sr.reveal('.one h2, .two h2', {
 	origin: 'top',
-	opacity: 0
+	opacity: 0,
+	reset: true
 });
 
 
