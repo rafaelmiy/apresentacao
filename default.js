@@ -31,26 +31,7 @@ $.scrollify({
     afterResize:function() {},
     afterRender:function() {}
 });
-// $.scrollify({
-//     section : ".scroll",
-//     sectionName : "scroll",
-//     interstitialSection : "",
-//     easing: "easeOutExpo",
-//     scrollSpeed: 1100,
-//     offset : 0,
-//     scrollbars: true,
-//     standardScrollElements: "",
-//     setHeights: true,
-//     overflowScroll: true,
-//     updateHash: true,
-//     touchScroll:true,
-//     before:function() {},
-//     after:function() {},
-//     afterResize:function() {},
-//     afterRender:function() {}
-// });
-// $.scrollify.instantMove("#scrollable");
-$.scrollify.move("#scroll");
+// $.scrollify.move("#scroll");
 
 // var input_size = $('#input').val().length;
 
