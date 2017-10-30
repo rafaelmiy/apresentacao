@@ -17,13 +17,41 @@
 
 <body>
   <div class="row">
-    <div class="full one magnet-section">
+    <div class="full magnet-section one">
         <h2><a href="#"><u>Hipertexto</u></a> e Websites</h2>
-      <div></div>
     </div>
-    <div class="full two magnet-section">
+    <div class="full magnet-section two">
+      <div class="col-md-6">
+        <img class="jobs" src="images/jobs.png">
+      </div>
+      <div class="col-md-6">
         <h2>Como surgiu</h2>
-      <div></div>
+      </div>
+    </div>
+    <div class="full magnet-section three">
+        <h2>No que se transformou</h2>
+    </div>
+    <!-- <div class="full magnet-section four">
+        <h2>O que é hoje</h2>
+    </div> -->
+    <div class="full magnet-section four">
+        <h2>
+          <span id="text"></span>
+          <input id="input" type="text">
+          <a class="button btn btn-primary" id="button" href="#search">Procurar</a>
+        </h2>
+    </div>
+    <div class="full magnet-section five">
+        <h2>Designers que são referência hoje</h2>
+    </div>
+    <div class="full magnet-section six">
+        <h2>Mudança estética que aconteceu</h2>
+    </div>
+    <div class="full magnet-section seven">
+        <h2>Desafio que o campo representa para o designer</h2>
+    </div>
+    <div id="search" class="full magnet-section seven1">
+        <h1>Search</h1>
     </div>
   </div>
   
@@ -33,4 +61,8 @@
   <script src="Scrollify-master/jquery.scrollify.js"></script>
   <script src="scrollreveal-master/dist/scrollreveal.min.js"></script>
   <script src="default.js"></script>
+  <script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
+  <script type="text/javascript">
+    var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
 </html>

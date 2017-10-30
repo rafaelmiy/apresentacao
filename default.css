@@ -1,4 +1,7 @@
 /*height: 100vh;*/
+body{
+	overflow:hidden;
+}
 .full{
 	height: 100vh;
 	padding: 50px 100px;
@@ -13,10 +16,65 @@
 .two{
 	background: green;
 }
+.three{
+	background: yellow,
+}
+.four{
+	background: orange;
+}
+.five{
+	background: blue;
+}
+.six{
+	background: red;
+}
+.seven{
+	background: gray;
+}
+.seven1{
+	background: #fff;
+}
 .one h2,
-.two h2{
+.two h2,
+.three h2,
+.four h2,
+.five h2,
+.six h2,
+.seven h2,
+.seven1 h1{
 	font-weight: 400;
 	display: inline-block;
 	vertical-align: middle;
 	line-height: normal;
+}
+.jobs{
+	height: 450px;
+}
+.three{
+	background-image: url("images/pc.png"); 
+}
+.three h2{
+	background: green;
+	color: #fff;
+}
+.seven1 h1{
+	font-size: 90px;
+}
+span{
+	font-size: 60px;
+	display: block;
+	text-transform: capitalize;
+	margin-bottom: 30px;
+}
+input{
+    outline: none;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+}
+a.button{
+	height: 46px;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: 400;
 }
