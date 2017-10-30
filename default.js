@@ -50,7 +50,7 @@ $.scrollify({
 //     afterRender:function() {}
 // });
 // $.scrollify.instantMove("#scrollable");
-$.scrollify.instantMove("#scroll");
+$.scrollify.move("#scroll");
 
 // var input_size = $('#input').val().length;
 
