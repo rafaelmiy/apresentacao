@@ -1,6 +1,6 @@
 // Scroll Reveal config
 window.sr = ScrollReveal({ duration: 2000 });
-sr.reveal('.one h2, .jobs, .two h2, .three h2, .four h2, .five h2, .six h2, .seven h2, .seven1 h2',{
+sr.reveal('.one h2, .jobs, .two h2, .three h2, .four h2, .five h2, .six h2, .seven h2, .seven1 h2, .scroll h2',{
 	origin: 'top',
 	opacity: 0,
 	reset: true
@@ -23,6 +23,24 @@ $.scrollify({
     scrollbars: true,
     standardScrollElements: "",
     setHeights: true,
+    overflowScroll: false,
+    updateHash: true,
+    touchScroll:true,
+    before:function() {},
+    after:function() {},
+    afterResize:function() {},
+    afterRender:function() {}
+},
+{
+section : ".scroll",
+    sectionName : "scroll",
+    interstitialSection : "",
+    easing: "easeOutExpo",
+    scrollSpeed: 1100,
+    offset : 0,
+    scrollbars: true,
+    standardScrollElements: "",
+    setHeights: true,
     overflowScroll: true,
     updateHash: true,
     touchScroll:true,
@@ -31,6 +49,26 @@ $.scrollify({
     afterResize:function() {},
     afterRender:function() {}
 });
+// $.scrollify({
+//     section : ".scroll",
+//     sectionName : "scroll",
+//     interstitialSection : "",
+//     easing: "easeOutExpo",
+//     scrollSpeed: 1100,
+//     offset : 0,
+//     scrollbars: true,
+//     standardScrollElements: "",
+//     setHeights: true,
+//     overflowScroll: true,
+//     updateHash: true,
+//     touchScroll:true,
+//     before:function() {},
+//     after:function() {},
+//     afterResize:function() {},
+//     afterRender:function() {}
+// });
+// $.scrollify.instantMove("#scrollable");
+$.scrollify.instantMove("#scroll");
 
 // var input_size = $('#input').val().length;
 
