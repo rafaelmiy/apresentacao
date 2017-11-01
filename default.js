@@ -7,6 +7,7 @@ sr.reveal('.title h2, .miya h1, .miya h2, .miya div, .jobs, .two h2, .three h2, 
 });
 sr.reveal('.miya.carac .full h1', 1500);
 sr.reveal('.miya.aspec .full h1', 1500);
+sr.reveal('.miya.carac img', 3000);
 
 // sr.reveal('.search',{
 // 	origin: 'top',
