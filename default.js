@@ -1,13 +1,15 @@
 // Scroll Reveal config
 window.sr = ScrollReveal({ duration: 2000 });
-sr.reveal('.title h2, .miya h1, .miya h2, .miya div, .jobs, .two h2, .three h2, .four h2, .five h2, .six h2, .seven h2, .seven1 h2, .scroll h2',{
+sr.reveal('.title h2, .miya h1, .miya h2, .miya div, .jobs, .two h2, .three h2, .four h2, .five h2, .six h2, .seven h2, .seven1 h2, .greg.buscadores',{
 	origin: 'top',
 	opacity: 0,
 	reset: true
 });
 sr.reveal('.miya.carac .full h1', 1500);
 sr.reveal('.miya.aspec .full h1', 1500);
-sr.reveal('.miya.carac img', 3000);
+sr.reveal('.miya.carac img', 4000);
+sr.reveal('.fluxo-html', 5000);
+sr.reveal('.fluxo-html img', 3000);
 
 // sr.reveal('.search',{
 // 	origin: 'top',
