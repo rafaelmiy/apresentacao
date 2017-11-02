@@ -16,6 +16,10 @@
 	src: url("fonts/roboto/Roboto-Thin.ttf") format("opentype");
 }
 @font-face{
+	font-family: roboto-black;
+	src: url("fonts/roboto/Roboto-Black.ttf") format("opentype");
+}
+@font-face{
 	font-family: pixel-operator8;
 	src: url("fonts/pixel_operator/PixelOperator8.ttf") format("opentype");
 }
@@ -59,14 +63,90 @@ body{
 	border-left: 11px solid purple;
     margin-left: 15px;
 }
+.isa.image24{
+	background-image: url("images/image24.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.isa.image24 h3,
+.isa.image20 h3,
+.isa.image20 h2,
+.isa.image13 h3,
+.isa.image13 h3,
+.isa.image18 h3{
+	background: #fff;
+	display: inline-block;
+}
+.isa.image14 h3,
+.isa.tela-gif h2{
+	background: #000;
+	color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+}
+.isa.image24 h2,
+.isa.image20 h2,
+.isa.image14 h2,
+.isa.image13 h2{
+	margin-top: 10%;
+}
+.isa.image24 p,
+.isa.image13 p,
+.isa.image18 p{
+	text-align: center;
+	background: #fff;
+	display: inline-block;
+}
+.isa.image14 p{
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	background: #000;
+	padding: 5px 10px;
+}
+.isa.image20{
+	background-image: url("images/image20.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.isa.image13 h2{
+	margin-top: 10%;
+}
+.isa.image13{
+	background-image: url("images/image13.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.isa.image14{
+	background-image: url("images/image14.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.isa.image18{
+	background-image: url("images/image18.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.isa.image18 .subtitle{
+	background: grey;
+	color: #fff;
+	font-size: 20px;
+	margin-top: 10%;
+}
+.isa.tela-gif{
+	background-image: url("images/tela.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 .greg{
 	border-left: 11px solid blue;
     margin-left: 15px;
 }
-.greg.title a{
+.greg.title a,
+.jonh.title a{
 	font-size: 20px;
 }
-.greg.buscadores img{
+.img-full img{
 	margin: 0 auto;
     height: 100vh;
     display: block;
@@ -74,11 +154,132 @@ body{
 .jonh{
 	border-left: 11px solid orange;
     margin-left: 15px;
+    background: #fff;
 }
 .jonh.title h2{
 	width: 90%;
 	line-height: 1.5;
 }
+.pati{
+	border-left: 11px solid hotpink;
+    margin-left: 15px;
+    background: #fff;
+}
+.pati.glitch-background{
+	background-image: url("images/glitch.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pati.glitch-background p{
+	padding: 10px 5px;
+	background: #fff;
+	color: #000;
+}
+.pati.glitch-background p.little{
+	font-size: 25px;
+	color: grey;
+}
+.pati .text-block-vuc{
+	text-align: center;
+    height: 30vh;
+    padding-top: 30%;
+}
+.pati .text-block-vuc h2,
+.pati .text-block-vuc h4{
+	background: #fff;
+	display: inline;
+}
+.pati.vuc{
+	background-image: url("images/vuc.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pati.vuc h2{
+	font-size: 50px;
+}
+.pati.heart{
+	background-image: url("images/heart.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pati.heart .text-block,
+.pati.lands .text-block{
+	color: #fff;
+	text-align: center;
+}
+.pati.heart .text-block h2,
+.pati.heart .text-block h4,
+.pati.lands .text-block h2,
+.pati.lands .text-block h4{
+	background: #000;
+}
+.pati.heart .text-block h2,
+.pati.lands .text-block h2{
+	margin-top: 5%;
+}
+.pati.heart .text-block h4,
+.pati.lands .text-block h4{
+    display: inline-grid;
+	margin-top: 40%;
+}
+.pati.heart .text-block h4 a,
+.pati.lands .text-block h4 a{
+	color: #fff;
+}
+.pati.lands{
+	background-image: url("images/lands.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pati.threads{
+	color: #fef954;
+	background-image: url("images/threads.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.pati.threads h2{
+	font-family: "roboto-bold";
+	font-family: "roboto-black";
+}
+.pati.title.threads p,
+.pati.title.threads a{
+	font-size: 20px;
+	background: #000;
+	color: #fef954;
+}
+.hector{
+	border-left: 11px solid yellow;
+    margin-left: 15px;
+    background: #fff;
+}
+.hector.professor{
+	background-image: url("images/professor.gif");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hector.professor h2{
+	background: #fff;
+}
+.hector.vr{
+	background-image: url("images/vr.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hector.vr h2{
+	background: #fff;
+}
+.hector.retrato{
+	background-image: url("images/retrato.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.hector.retrato h2{
+	background: #fff;
+}
+
+
+
+
 
 .two{
 	background: #fff;
@@ -225,4 +426,27 @@ a.button{
     bottom: 20%;
     right: 5%;
     font-size: 20px;
+}
+.amazon{
+	background: #cecece;
+}
+.mercedes{
+	background: #c7c7c7;
+}
+.mercedes_new{
+	background: #000;
+}
+.thanks{
+	padding: 0;
+	background: #000;
+}
+.thanks img{
+	display: block;
+	margin: 0 auto;
+	height: 50vh;
+}
+iframe{
+	width: 100%;
+	height: 40vh;
+	border: none;
 }

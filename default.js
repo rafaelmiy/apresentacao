@@ -1,6 +1,6 @@
 // Scroll Reveal config
 window.sr = ScrollReveal({ duration: 2000 });
-sr.reveal('.title h2, .miya h1, .miya h2, .miya div, .jobs, .two h2, .three h2, .four h2, .five h2, .six h2, .seven h2, .seven1 h2, .greg.buscadores',{
+sr.reveal('.title h2, .miya h1, .miya h2, .miya div, .jobs, .two h2, .three h2, .four h2, .five h2, .six h2, .seven h2, .seven1 h2, .greg h2, .greg img, .jonh img, .jonh h2, .pati.heart div, .pati.lands div',{
 	origin: 'top',
 	opacity: 0,
 	reset: true
