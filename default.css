@@ -284,7 +284,7 @@ body{
 .two{
 	background: #fff;
 }
-.jonh.img-full.google img{
+.jonh.img-full.google img, .greg.img-full.google img{
 	width: 100vh;
 	height: auto;
 }
